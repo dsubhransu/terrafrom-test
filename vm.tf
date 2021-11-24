@@ -1,4 +1,4 @@
-resource "azurerm_network_interface" "terraform-test" {
+resource "azurerm_network_interface" "terraform-test1" {
   name                = "terraform-test-nic"
   location            = azurerm_resource_group.terraform-test.location
   resource_group_name = azurerm_resource_group.terraform-test.name
